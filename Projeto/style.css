@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Alumni Sans", sans-serif;
+    background-color: #f7f7f7; /* Fundo quase branco */
+    color: #333; /* Texto em tom de cinza escuro */
+}
+
+h1 {
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 45px;
+    color: #333; /* Cor do texto em cinza escuro */
+}
+
+.Cad {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 90%;
+    padding: 2%;
+    margin: 20px;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 10px;
+    background-color: #fff; /* Fundo branco */
+    color: #333; /* Texto em cinza escuro */
+}
+
+#cadastrar {
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 18px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%; /* Centralizado */
+    padding: 10px;
+    background-color: #007bff; /* Azul claro */
+    color: #fff; /* Texto branco */
+    border: 0;
+    border-radius: 13px;
+    transition: background-color 0.3s;
+}
+
+#cadastrar:hover {
+    cursor: pointer;
+    background-color: #0056b3; /* Azul mais escuro */
+}
+
+#see {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background: none;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    color: #333; /* Texto em cinza escuro */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#delete {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 80%;
+    background: none;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    color: #333; /* Texto em cinza escuro */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#see:hover, #delete:hover {
+    cursor: pointer;
+    background-color: #007bff; /* Fundo azul claro no hover */
+    color: #fff; /* Texto branco no hover */
+}
+
+#Formcadastro {
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 6px 6px; /* Sombra leve */
+}
+
+#fechar:hover {
+    cursor: pointer;
+    background-color: #ff2d2da8;
+}
+
+#fechar {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 80%;
+    background: none;
+    border: 1px solid #ccc; /* Borda cinza clara */
+    color: #333; /* Texto em cinza escuro */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.res {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.res.active {
+    display: block;
+}
+#item-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    font-size: 24px;
+}
+#item-list li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#item-list li button img {
+    width: 20px;
+}
+
+
