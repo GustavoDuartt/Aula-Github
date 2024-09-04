@@ -10,12 +10,18 @@ body {
     color: #333; /* Texto em tom de cinza escuro */
 }
 
+p {
+    font-size: 25px;
+    margin: 0;
+}
+
 h1 {
+    margin: 0;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     font-size: 45px;
-    color: #333; /* Cor do texto em cinza escuro */
+    color: #333;
 }
 
 .Cad {
